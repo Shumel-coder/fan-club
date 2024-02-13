@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <div id="container">
+    <header>
+      <h1 id="title">One Piece Fan Club Registration</h1>
+      <p id="description">Join the One Piece Fan Club Today!</p>
+      <img src="images/logo.png" alt="OP Logo" />
+    </header>
+    <form id="join-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+          autocomplete="name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+          autocomplete="email"
+        />
+      </div>
+
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Age<span class="clue">(optional)</span></label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+      </div>
+
+      <div class="form-group">
+        <p>Have you watched One Piece before?</p>
+        <label>
+          <input
+            name="watched-yesorno"
+            value="yes"
+            type="radio"
+            class="input-radio"
+            checked
+          />Yes</label
+        >
+        <label>
+          <input
+            name="watched-yesorno"
+            value="no"
+            type="radio"
+            class="input-radio"
+          />No</label
+        >
+      </div>
+
+      <div class="form-group">
+        <p>If yes, how many episodes have you watched?</p>
+        <select id="dropdown" name="episodes-watched" class="form-control">
+          <option disabled selected value>Select Number of Episodes</option>
+          <option value="<100">&lt100</option>
+          <option value="100-500">100-500</option>
+          <option value="500-1000">500-1000</option>
+          <option value="1000+">1000+</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>
+          Have you watched any of these other anime?
+          <span class="anime-watched">(Check all that apply)</span>
+        </p>
+
+        <label
+          ><input
+            name="watched"
+            value="naruto"
+            type="checkbox"
+            class="input-checkbox"
+          />Naruto</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="dragon-ball"
+            type="checkbox"
+            class="input-checkbox"
+          />Dragon Ball Super</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="jujutsu-kaisen"
+            type="checkbox"
+            class="input-checkbox"
+          />Jujutsu Kaisen</label
+        >
+        <label>
+          <input
+            name="watched"
+            value="bleach"
+            type="checkbox"
+            class="input-checkbox"
+          />Bleach</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="fire-force"
+            type="checkbox"
+            class="input-checkbox"
+          />Fire Force</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="demon-alyer"
+            type="checkbox"
+            class="input-checkbox"
+          />Demon Slayer</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="death-note"
+            type="checkbox"
+            class="input-checkbox"
+          />Death Note</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="soul-eater"
+            type="checkbox"
+            class="input-checkbox"
+          />Soul Eater</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="blue-exorcist"
+            type="checkbox"
+            class="input-checkbox"
+          />Blue Exorcist</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="d-grayman"
+            type="checkbox"
+            class="input-checkbox"
+          />D-Grayman</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="gurren-lagann"
+            type="checkbox"
+            class="input-checkbox"
+          />Gurren Lagann</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="air-gear"
+            type="checkbox"
+            class="input-checkbox"
+          />Air Gear</label
+        >
+        <label
+          ><input
+            name="watched"
+            value="letter-bee"
+            type="checkbox"
+            class="input-checkbox"
+          />Letter Bee</label
+        >
+      </div>
+
+      <div class="form-group">
+        <p>What would you like to do in the One Piece Fan Club?</p>
+        <textarea
+          id="recommendations"
+          class="input-textarea"
+          name="recommendations"
+          placeholder="Watch One piece, go to anime events, etc..."
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <a href="mailto:muhaimin.alidev@gmail.com">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </a>
+      </div>
+    </form>
+  </div>
+</html>
