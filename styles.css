@@ -1,0 +1,107 @@
+@font-face {
+  font-family: opfont;
+  src: url(fonts/opfont.ttf);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+  background-color: #0156fe;
+  text-align: center;
+}
+
+nav ul li {
+  /* display: inline; */
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: opfont, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+li {
+  margin: auto;
+  padding: 0.5%;
+  list-style: none;
+}
+
+form {
+  display: block;
+  justify-self: center;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+.container header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+img {
+  align-self: center;
+  margin: auto;
+}
+
+#description {
+  text-align: center;
+}
+
+#thousand-sunny {
+  width: 40%;
+  padding: 5% 30%;
+}
+
+#logo {
+  max-width: 80%;
+  max-height: 10%;
+}
+
+#about {
+  margin: 2%;
+}
+
+#movie-img {
+  width: 80%;
+  padding: 5% 10%;
+}
